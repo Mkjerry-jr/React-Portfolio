@@ -25,8 +25,8 @@ const Tech = () => {
         stagger: 0.1, 
         scrollTrigger: {
           trigger: ".tech-icons-wrapper", 
-          start: "top 80%", 
-          end: "bottom 70%", 
+          start: "top -10%", 
+          end: "bottom 0%", 
           scrub: true, 
         },
       }
@@ -35,17 +35,7 @@ const Tech = () => {
 
   return (
     <section>
-      <div className="tech-icons-wrapper flex flex-row flex-wrap justify-center gap-10">
-        {technologies.map((technology) => (
-          <div className="w-28 h-28" key={technology.name}>
-            <img
-              src={technology.icon}
-              alt={technology.name}
-              className="tech-icon w-full h-full object-contain"
-            />
-          </div>
-        ))}
-      </div>
+
     </section>
   );
 };

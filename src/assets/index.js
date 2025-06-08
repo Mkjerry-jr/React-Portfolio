@@ -10,9 +10,8 @@ import gsap from './tech/gsap.png'
 import framer from './tech/framer.png';
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
-import gearXpert from './gearXpert.png';
-import project3 from './project3.webp';
-import project2 from './proj1.webp'
+
+
 import mysql from './tech/mysql.png';
 import express from './tech/express.png';
 import aws from './tech/aws.png';
@@ -26,9 +25,9 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
-import firstTestimonial from './Tars Ken.webp';
-import secondTestimonial from './image.webp';
-import thirdTestimonial from './third testimonial.webp'
+import firstTestimonial from './first.webp';
+import secondTestimonial from './second.webp';
+import thirdTestimonial from './third.jpg';
 
 export {
   logo,
@@ -40,9 +39,6 @@ export {
   menu,
   close,
   css,
-  gearXpert,
-  project2,
-  project3,
   mysql,
   express,
   aws,

@@ -9,9 +9,7 @@ import {
   menu,
   close,
   css,
-  gearXpert,
-  project2,
-  project3,
+ 
   mysql,
   express,
   aws,
@@ -36,7 +34,11 @@ import {
 
 
 // Import Tekisky separately
-import tekisky from "../assets/company/tekisky.png";
+import tcs from "../assets/company/tcs.png";
+import EduVision from "../assets/company/EduVision.png";
+import chatbot from "../assets/company/chatbot.png";
+import VHP from "../assets/company/VHP.png";
+
 
 
 export const navLinks = [
@@ -59,19 +61,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Full-Stack Developer",
+    title: "Design",
     icon: web,
   },
   {
-    title: "Frontend Developer",
+    title: "Code",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Create",
     icon: backend,
   },
   {
-    title: "Ui UX Designer",
+    title: "Innovate",
     icon: creator,
   },
 ];
@@ -154,120 +156,128 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full-Stack Developer",
-    company_name: "Tekisky",
-    icon: tekisky,
+    title: "Graduate Trainee",
+    company_name: "Tata Consultancy Services",
+    icon: tcs,
     iconBg: "#383E56",
-    date: "Jan 2023 - present",
+    date: "Jun 2025 - present",
     points: [
-      "Developing and maintaining web applications using MERN technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Supporting software development and maintenance tasks under the guidance of senior team members.",
+      "Learning and working with technologies like Java, SQL, HTML, and other project-specific tools.",
+      "Assisting in testing, debugging, and documenting software applications across various domains",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
+
 ];
 
+
+
+
+
+
+
+
 const testimonials = [
+  
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Huzaif proved me wrong.",
-    name: "MD Mustaqeem",
-    designation: "Ecommerce",
-    company: "QuickMart",
-    image: firstTestimonial,
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Huzaif does.",
-    name: "Abdul Raheman",
-    designation: "Ecommerce Business",
-    company: "justbuyz",
+      "A highly focused and curious learner, Manoj stood out for his commitment to excellence and ability to work collaboratively on team projects with his excellent leadership.",
+    name: "Dr. Renuka Devi M",
+    designation: "Professor",
+    company: "Presidency University",
     image: secondTestimonial,
   },
   {
     testimonial:
-      "After Huzaif optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "James Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "Manoj actively contributed to student coordination activities and consistently demonstrated excellent time management skills. His timely support made a positive impact.",
+    name: "Dr. Anand Kumar M",
+    designation: "Professor",
+    company: "Presidency University",
     image: thirdTestimonial,
+  },
+  {
+    testimonial:
+      "I have seen Manoj take initiative in multiple technical events and class discussions. His blend of curiosity and responsibility is exactly what the industry looks for in fresh graduates.",
+    name: "Dr. Mahalakshmi R",
+    designation: "Associate Dean",
+    company: "Presidency University",
+    image: firstTestimonial,
   },
 ];
 
 const projects = [
   {
-    name: "Tekisky Mart",
+    name: "Virtual Hand Painter",
     description:
-      "Tekisky Mart is a web-based platform that allows users to search, explore, and purchase a wide range of products from various providers, offering a seamless and efficient shopping experience.",
-    tags: [
+    "Virtual Hand Painter is a feature used in online meetings to represent visuals without the need for any hardware assistance. It uses our camera to track hands for drawing which reduces the reliance on text and promotes visual interaction by enabling on-screen drawing.",
+    
+      tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Flask",
         color: "white-text-gradient",
       },
       {
-        name: "node",
+        name: "OpenCV",
         color: "pink-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
       },
  
     ],
-    image: project2,
-    source_code_link: "https://github.com/",
+    image: VHP,
+    source_code_link: "https://github.com/Mkjerry-jr/virtual-painter-web",
   },
   {
-    name: "GearXpert",
+    name: "Simple Chatbot",
     description:
-      "GearXpert is your ultimate destination for premium auto parts and accessories, Whether you're an automobile enthusiast or a professional, find everything you need to upgrade, repair.",
+      "This is a simple Q/A chatbot designed to answer a predefined set of questions.It works on a conversational model, interpreting short user inputs effectively.The bot provides accurate responses based on the detected query. Mostly used in Customer Support and Tech Assistance fields.",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "emailJs",
+        name: "HTML-CSS",
         color: "green-text-gradient",
       },
       {
-        name: "Gsap",
+        name: "JS",
         color: "pink-text-gradient",
       },
     ],
-    image: gearXpert,
-    source_code_link: "https://github.com/",
+    image: chatbot,
+    source_code_link: "https://github.com/Mkjerry-jr/Chatbot",
   },
   {
-    name: "GoGroove-Ecommerce",
+    name: "EduVision",
     description:
-      "Go-Groove is your ultimate destination for premium products across various categories. Whether you're a savvy shopper or a professional, enhance, and simplify your lifestyle—all in one place!",
+      "EduVision is a mini-ERP for government primary schools, managing attendance, marks, and student data. It supports role-based access for Teachers, Heads, Cluster Heads, and BEOs. Built with the MEEN stack, it enables easy supervision and centralized monitoring.",
     tags: [
       {
-        name: "react",
+        name: "Node",
         color: "blue-text-gradient",
       },
       {
-        name: "express",
+        name: "Express",
         color: "white-text-gradient",
       },
       {
-        name: "node",
-        color: "green-text-gradient",
+        name: "Ember",
+        color: "pink-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "MongoDB",
         color: "green-text-gradient",
       },
+     
     ],
-    image: project3,
-    source_code_link: "https://github.com/",
+    image: EduVision,
+    source_code_link: "https://github.com/Mkjerry-jr/EduVision",
   },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
