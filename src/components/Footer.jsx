@@ -16,7 +16,7 @@ const Footer = () => {
         <FaLinkedin size={24} />
       </a>
        <a
-        href="mailto:mkjerry2004@gmail.com"
+        href="mailto:mkjerry.dev@gmail.com"
         target="_blank"
         rel="noopener noreferrer"
       >
